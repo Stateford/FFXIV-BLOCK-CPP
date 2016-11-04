@@ -14,7 +14,7 @@ string translate(string x)
 	transform(lowercase.begin(), lowercase.end(), lowercase.begin(), ::tolower);
 
 	// create our dictionary
-	map<char, char> dictionary;
+	map<char, wchar_t> dictionary;
 	/*NOTE: */
 	dictionary['a'] = '';
 	dictionary['b'] = '';
